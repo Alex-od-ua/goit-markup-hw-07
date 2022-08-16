@@ -2,52 +2,6 @@ $primary-text-color: #212121;
 $second-text-color: #757575;
 $white-text-color: #ffffff;
 $accent-color: #2196f3;
-$white-text-color: #ffffff;
+$black-color: #000000;
 $main-background-color: #ffffff;
-
-body {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  background: var(--main-background-color);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-.list-style {
-  list-style: none;
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-}
-
-.decor {
-  text-decoration: none;
-}
-
-.hover-style:hover,
-.hover-style:focus {
-  color: var(--accent-color);
-  text-decoration: none;
-}
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+$footer-background-color: #2f303a;

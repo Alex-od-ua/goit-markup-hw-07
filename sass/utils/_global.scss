@@ -1,0 +1,37 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background: $main-background-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.list-style {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.decor {
+  text-decoration: none;
+}
+
+.hover-style:hover,
+.hover-style:focus {
+  color: $accent-color;
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
