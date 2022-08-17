@@ -1,6 +1,5 @@
-.skill-section__item {
-  display: flex;
-  align-items: center;
+.skill-section__wrapper {
+  @extend %flex-element;
   justify-content: center;
   height: 120px;
   background: #f5f4fa;
@@ -8,7 +7,7 @@
   margin-bottom: 30px;
 }
 
-.skill-section__list {
+.skill-section__item {
   width: 270px;
   flex-wrap: wrap;
 
@@ -17,8 +16,9 @@
   }
 }
 
-.skill-section .list-style {
+.skill-section__list {
   display: flex;
+  @extend %list-style;
 }
 
 .skill-section__title {
@@ -32,6 +32,7 @@
 }
 
 .skill-section__text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

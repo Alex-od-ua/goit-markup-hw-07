@@ -79,12 +79,12 @@
 
       <!------------ skill-section ------------>
 
-      <section class="skill-section section">
-        <div class="container">
+      <section class="section">
+        <div class="container skill-section">
           <h2 hidden>Скрытый заголовок</h2>
-          <ul class="list-style">
-            <li class="skill-section__list">
-              <div class="skill-section__item">
+          <ul class="skill-section__list">
+            <li class="skill-section__item">
+              <div class="skill-section__wrapper">
                 <svg class="skill-section__icon" width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-antenna"></use>
                 </svg>
@@ -94,8 +94,8 @@
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="skill-section__list">
-              <div class="skill-section__item">
+            <li class="skill-section__item">
+              <div class="skill-section__wrapper">
                 <svg class="skill-section__icon" width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-clock"></use>
                 </svg>
@@ -105,8 +105,8 @@
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="skill-section__list">
-              <div class="skill-section__item">
+            <li class="skill-section__item">
+              <div class="skill-section__wrapper">
                 <svg class="skill-section__icon" width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-diagram" width="70" height="70"></use>
                 </svg>
@@ -116,8 +116,8 @@
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="skill-section__list">
-              <div class="skill-section__item">
+            <li class="skill-section__item">
+              <div class="skill-section__wrapper">
                 <svg class="skill-section__icon" width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-astronaut" width="70" height="70"></use>
                 </svg>
@@ -543,22 +543,22 @@
             placeholder="Введіть текст"
           ></textarea>
 
-          <div class="checkbox-item">
-            <label class="privacy-policy" for="privacy-policy"
+          <div class="modal-checkbox">
+            <label class="modal-checkbox_label" for="privacy-policy"
               ><input
-                class="modal-checkbox"
+                class="modal-checkbox__input"
                 type="checkbox"
                 name="privacy-policy"
                 id="privacy-policy"
-              /><svg class="policy-icon" width="16" height="15">
+              /><svg class="modal-checkbox__icon" width="16" height="15">
                 <use href="./images/symbol-defs.svg#icon-check"></use>
               </svg>
-              <svg class="policy-icon-none" width="16" height="15">
+              <svg class="modal-checkbox__icon--none" width="16" height="15">
                 <use href="./images/symbol-defs.svg#icon-Vector"></use>
               </svg>
 
               Погоджуюся з розсилкою та приймаю
-              <a class="policy-accent" href="">Умови договору</a>
+              <a class="modal-checkbox__link" href="">Умови договору</a>
             </label>
           </div>
           <button disabled class="submit-btn" type="submit">Відправити</button>

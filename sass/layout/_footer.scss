@@ -8,20 +8,6 @@
   display: flex;
 }
 
-.footer-logo {
-  font-family: 'Raleway';
-  font-style: 400;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: $white-text-color;
-  text-decoration: none;
-
-  &__accent {
-    color: $accent-color;
-  }
-}
-
 .footer-adress {
   margin-top: 20px;
 
@@ -95,8 +81,7 @@
 }
 
 .footer-soclink__link {
-  display: flex;
-  align-items: center;
+  @extend %flex-element;
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
@@ -162,9 +147,8 @@
 }
 
 .subscribe-btn {
-  display: flex;
+  @extend %flex-element;
   justify-content: center;
-  align-items: center;
   width: 200px;
   height: 50px;
   margin-top: 48px;
